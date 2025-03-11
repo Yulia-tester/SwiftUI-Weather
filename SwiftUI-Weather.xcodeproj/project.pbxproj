@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B27705832D7BD3B4005A6472 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27705822D7BD3B4005A6472 /* WeatherButton.swift */; };
 		B292FDA22D77D38500A1B324 /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B292FDA12D77D38500A1B324 /* SwiftUI_WeatherApp.swift */; };
 		B292FDA42D77D38500A1B324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B292FDA32D77D38500A1B324 /* ContentView.swift */; };
 		B292FDA62D77D38700A1B324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B292FDA52D77D38700A1B324 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B27705822D7BD3B4005A6472 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		B292FD9E2D77D38500A1B324 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B292FDA12D77D38500A1B324 /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
 		B292FDA32D77D38500A1B324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				B292FDA32D77D38500A1B324 /* ContentView.swift */,
 				B292FDA52D77D38700A1B324 /* Assets.xcassets */,
 				B292FDA72D77D38700A1B324 /* Preview Content */,
+				B27705822D7BD3B4005A6472 /* WeatherButton.swift */,
 			);
 			path = "SwiftUI-Weather";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				B292FDA42D77D38500A1B324 /* ContentView.swift in Sources */,
 				B292FDA22D77D38500A1B324 /* SwiftUI_WeatherApp.swift in Sources */,
+				B27705832D7BD3B4005A6472 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
